@@ -1,6 +1,3 @@
 #include "core.h"
 
-int main()
-{
-    Core::PrintHelloWorld();
-}
+int main() { Core::printHelloWorld(); }

@@ -1,14 +1,7 @@
 #include "core.h"
-
 #include <iostream>
 
 namespace Core
 {
-
-    void PrintHelloWorld()
-    {
-        std::cout << "Hello World!\n";
-        std::cin.get();
-    }
-
-}
+void printHelloWorld() { std::cout << "Hello World!\n"; }
+} // namespace Core
